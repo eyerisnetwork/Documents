@@ -10,10 +10,20 @@ The first distributed ledger protocol was released in 2008 in the form of Bitcoi
 
 An additional problem with the bitcoin blockchain and other alternative blockchain networks is the requirement for the dedicated use of computing power and energy in other to ensure network security. A blockchain network which could run from existing computational and energy use would thus be superior from a resource-conserving point of view, an essential point in the scalability of the network to a potentially global user base.
 
-## Consensus Algorithm (PoUTR)
+## Consensus Algorithm
 
 ###### Rationale
 
 The decision behind developing a new consensus algorithm based on online gaming connection speeds as a Proof of Stake (PoS) equivalent serves precisely to take advantage of existing infrastructure in order to reduce energy usage and increase the starting levels of decentralization. PoUTR would also prevent the incentive for accumulation from PoS consensus algorithms, improving the gini index of the EyeRIS cryptocurrency.
 
-###### Transactions
+###### Proof of User Tick Rate
+
+Under the PoUTR algorithm, blocks producers are chosen by surveying players running the EyeRIS node wallet, which monitors players' tick rate in their current online game and assign a stake to each player sending updates to the server at a frequency between 50Hz and 250Hz (a common range of frequencies for competitive online games). Each staked player is then added to a time-based list/queue to participate in the block production. Such time-based list/queue is updated in real-time with the player tick rate frequency in order to confirm the player is, indeed, playing. After having participated in the production of a block, the staked player has its stake removed and, if still connected to the network and with a tick rate between 50-250Hz, will be placed in the bottom of the list/queue where its timestamp will increase once again. As the players produce blocks, they move to the bottom of the list/queue and newer players move up. This list is maintained and updated in all nodes in real time.
+
+Thus, the EyeRIS network enables block production to occurr every 1 - 5 seconds, with one player to be authorized by the time hierarchy to produce a block at any moment. If player network interruption occurrs, the next player in the list is selected (with a time delay of 10ms) until one player can keep a stable connection during the whole block production event. It can be expected that the time-based queue would be a long one given the sheer amount of connected players at any given time. 
+
+## Wallet
+
+The EyeRIS node wallet will be able to anonymously monitor
+
+To resist network stops due to any given game maintenance issues, the EyeRIS node wallet will be compatible will all PC online games through a simple player set-up selection tool, which allows the player to select which .exe files the wallet must correlate with the 
