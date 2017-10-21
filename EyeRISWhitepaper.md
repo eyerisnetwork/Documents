@@ -2,7 +2,7 @@
 
 **Date**
 
-**Abstract**: The EyeRIS software provides a novel approach for securing a network capable of running smart contracts and dApps through the use of a new consensus algorithm: PoUTR (Proof of User Tick Rate). This algorithm uses real time online videogame server connections from the player side to cryptographically secure transactions between network participants. The resulting effect is that no additional network security infrastructure is needed as players can secure transactions passively through their activity, the architecture allows for almost instant decentralization from deployment given the nature of the algorithm and the amount of online players at any given time, user fees are significantly reduced as a result of the distributed nodes and competition for fees, and geographical decentralization is possible, also enabling fast deployment of dApps at a global scale.
+**Abstract**: The EyeRIS software provides a novel approach for securing a decentralized ledger network capable of running smart contracts and dApps through the use of a new consensus algorithm: PoUTR (Proof of User Tick Rate). This algorithm uses real time online videogame server connections from the player side to cryptographically secure transactions between network participants. The resulting effect is that no additional network security infrastructure is needed as players can secure transactions passively through their activity, the architecture allows for almost instant decentralization from deployment given the nature of the algorithm and the amount of online players at any given time, user fees are significantly reduced as a result of the distributed nodes and competition for fees, and geographical decentralization is possible, also enabling fast deployment of dApps at a global scale.
 
 # Context
 
@@ -35,3 +35,7 @@ To resist network stops due to any given game maintenance issues, the EyeRIS nod
 ## Transactions
 
 With a PoUTR algorith, the EyeRIS network can confirm transactions with speeds below 5 seconds, assuming a sufficient queue of active staking players (greater by a factor of 5 than the number of blocks waiting to be confirmed). As transactions will contain the hash of the most recent block, this will prevent a transaction replay on forks excluding the referenced block.
+
+# Accounts
+
+
