@@ -24,8 +24,14 @@ Thus, the EyeRIS network enables block production to occurr every 1 - 5 seconds,
 
 During normal operation the blockchain will not experience any forks since there is a time-based hierarchy to compete for the next block, and each future block producer is already in line for the longest blockchain produced by the previous block producer. As a consequence, future network updates will require temporary interruptions, affecting transactions and dApps, while the first player running the new software is awarded the production of the new forked block.
 
+[EyeRIS PoUTR Logic](https://github.com/eyerisnetwork/Documents/blob/master/eyeris_poutrlogic.png)
+
 ## Wallet
 
 The EyeRIS node wallet will be able to anonymously monitor internet traffic frequency by the player and correlate it with installed games selected by the user. Players wishing to contribute will run a node wallet (also known as a full wallet), while users interested only in performing transactions or running higher applications will use a light wallet (compatible with mobile devices).
 
 To resist network stops due to any given game maintenance issues, the EyeRIS node wallet will be compatible will all PC online games through a simple player set-up selection tool, which allows the player to select which .exe files the wallet must correlate with the monitored internet traffic. This way, other players in other online games will be able to contribute to the block production if a specific game experiences network issues, is discontinued, or is being updated. 
+
+## Transactions
+
+With a PoUTR algorith, the EyeRIS network
