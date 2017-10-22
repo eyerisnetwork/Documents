@@ -38,4 +38,4 @@ With a PoUTR algorith, the EyeRIS network can confirm transactions with speeds b
 
 # Accounts
 
-
+When an user creates an account in the EyeRIS network, there will be an option to generate a unique human readable name containing 32 characters in length. Each user account will require a minimum amount of funds in order to use the network at any give time. 
