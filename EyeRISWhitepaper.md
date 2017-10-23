@@ -24,7 +24,7 @@ Thus, the EyeRIS network enables block production to occurr every 1 - 5 seconds,
 
 During normal operation the blockchain will not experience any forks since there is a time-based hierarchy to compete for the next block, and each future block producer is already in line for the longest blockchain produced by the previous block producer. As a consequence, future network updates will require temporary interruptions, affecting transactions and dApps, while the first player running the new software is awarded the production of the new forked block.
 
-[EyeRIS PoUTR Logic](https://github.com/eyerisnetwork/Documents/blob/master/eyeris_poutrlogic.png)
+![alt text](https://github.com/eyerisnetwork/Documents/blob/master/eyeris_poutrlogic.png)[EyeRIS PoUTR Logic](https://github.com/eyerisnetwork/Documents/blob/master/eyeris_poutrlogic.png)
 
 ## Wallet
 
