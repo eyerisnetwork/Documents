@@ -24,7 +24,9 @@ Thus, the EyeRIS network enables block production to occurr every 1 - 5 seconds,
 
 During normal operation the blockchain will not experience any forks since there is a time-based hierarchy to compete for the next block, and each future block producer is already in line for the longest blockchain produced by the previous block producer. As a consequence, future network updates will require temporary interruptions, affecting transactions and dApps, while the first player running the new software is awarded the production of the new forked block.
 
-![alt text](https://github.com/eyerisnetwork/Documents/blob/master/eyeris_poutrlogic.png)[EyeRIS PoUTR Logic](https://github.com/eyerisnetwork/Documents/blob/master/eyeris_poutrlogic.png)
+EyeRIS PoUTR Logic:
+
+![alt text](https://github.com/eyerisnetwork/Documents/blob/master/eyeris_poutrlogic.png)
 
 ## Wallet
 
@@ -38,4 +40,4 @@ With a PoUTR algorith, the EyeRIS network can confirm transactions with speeds b
 
 # Accounts
 
-When an user creates an account in the EyeRIS network, there will be an option to generate a unique human readable name containing 32 characters in length. Each user account will require a minimum amount of funds in order to use the network at any give time. 
+When an user creates an account in the EyeRIS network, there will be an option to generate a unique human readable name containing 32 characters in length. Each user account will require a minimum amount of funds in order to use the network at any give time (value greater than 0.01 units). Each account has a private database which can be used to send and receive memos. Ordered memos can define scripts, and the combination of the memos with the scripts enables the execution of smart contracts in the EyeRIS network. 
