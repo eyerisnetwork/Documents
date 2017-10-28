@@ -42,4 +42,18 @@ With a PoUTR algorith, the EyeRIS network can confirm transactions with speeds b
 
 # Accounts
 
-When an user creates an account in the EyeRIS network, there will be an option to generate a unique human readable name containing 32 characters in length. Each user account will require a minimum amount of funds in order to use the network at any give time (value greater than 0.01 units). Each account has a private database which can be used to send and receive memos. Ordered memos can define scripts, and the combination of the memos with the scripts enables the execution of smart contracts in the EyeRIS network. 
+When an user creates an account in the EyeRIS network, there will be an option to generate a unique human readable name containing 32 characters in length. Each user account will require a minimum amount of funds in order to use the network at any give time (value greater than 0.01 units). Each account has a private database which can be used to send and receive memos. Ordered memos can define scripts, and the combination of the memos with the scripts enables the execution of smart contracts in the EyeRIS network.
+
+(work in progress)
+
+# Applications
+
+(work in progress)
+
+# Supply
+
+(work in progress)
+
+# Licensing
+
+(work in progress)
