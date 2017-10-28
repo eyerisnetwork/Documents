@@ -1,6 +1,6 @@
 # EyeRIS White Paper (work in progress)
 
-![alt text](https://github.com/eyerisnetwork/Branding/blob/master/EyeRISlogo.png)
+![alt text](https://github.com/eyerisnetwork/Branding/blob/master/EyeRISlogo_small.png)
 
 **Date**
 
